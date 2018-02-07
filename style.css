@@ -1,0 +1,93 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: lightgrey;
+}
+
+.clear{
+    clear: both;
+}
+.wrap{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.home-title{
+    padding: 100px; 
+    text-align: center;
+    font-family: "Courier New";
+    font-size: 50px;
+    font-weight: bold;
+    color:  rgb(37, 32, 32);
+    text-shadow: 1px 1px 6px black;
+}
+
+.menu{
+    margin-bottom: 100px;
+}
+.menu ul li{
+    list-style-type: none; /*noktalar giderrrr*/
+    float: left;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-right: 10px;
+}
+
+
+.menu ul li a{
+    text-decoration: none; /*alt cizgiler gider*/
+    color: rgb(19, 15, 15);
+    font-size: 20px;
+    padding : 10px;
+    border: 1px solid rgb(10, 7, 15);
+    border-radius: 15px;
+    font-weight: 2px bold;
+}
+
+.menu ul li a:hover{
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+}
+
+
+.social-media{
+    float: right;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.connect img{
+    width : 50px;
+    height: 30px;
+}
+
+.connect ul li{
+    float: left;
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+.footer{
+    border-top: 1px dotted rgb(140, 140, 192);
+    
+}
+
+.footer .personal-page{
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Tahoma";
+    font-weight: bold;
+}
+
+.whoami {
+    
+}
